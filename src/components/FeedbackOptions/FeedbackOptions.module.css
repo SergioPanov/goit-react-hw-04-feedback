@@ -1,0 +1,23 @@
+.feedbackList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.feedbackBtn {
+  padding: 15px;
+  cursor: pointer;
+  background-color: lightgray;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+  transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: green;
+    border-color: orange;
+  }
+}
